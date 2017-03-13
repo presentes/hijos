@@ -1,2 +1,8 @@
 Pipfile.lock
+yarn.lock
 __pycache__
+*.pyc
+*.log
+db.sqlite3
+node_modules
+hijos/static/
