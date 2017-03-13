@@ -1,6 +1,14 @@
 [[source]]
-url = "git@github.com:presentes/hijos.git"
+url = 'git@github.com:presentes/hijos.git'
 verify_ssl = true
 
+[requires]
+python_version = '2.7'
+
 [packages]
-wagtail = "*"
+wagtail = '>=1.9,<1.10'
+Django = '>=1.10,<1.11'
+
+[dev-packages]
+nodeenv = '*'
+pylint = '*'
