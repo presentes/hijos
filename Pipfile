@@ -1,0 +1,6 @@
+[[source]]
+url = "git@github.com:presentes/hijos.git"
+verify_ssl = true
+
+[packages]
+wagtail = "*"
